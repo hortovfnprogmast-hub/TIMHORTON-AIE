@@ -23,7 +23,7 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
 
     <script>
-        tailwind.config = { darkMode: "class", corePlugins: { preflight: false }, theme: { extend: { colors: { primary: "#DC2626", "primary-dark": "#B91C1C", "surface": "#FFFFFF", "background": "#D2B48C", "text-main": "#1E293B", "text-sub": "#64748B", }, fontFamily: { sans: ["Inter", "sans-serif"] } } } };
+        tailwind.config = { darkMode: "class", corePlugins: { preflight: false }, theme: { extend: { colors: { primary: "#DC2626", "primary-dark": "#B91C1C", "surface": "#FFFFFF", "background": "#F8FAFC", "text-main": "#1E293B", "text-sub": "#64748B", }, fontFamily: { sans: ["Inter", "sans-serif"] } } } };
     </script>
 
     <script>
@@ -33,15 +33,15 @@
     </script>
 
     <style>
-        body { margin: 0; padding: 0; background-color: #D2B48C; }
+        body { margin: 0; padding: 0; background-color: #f8fafc; }
         
-        #login-screen { font-family: 'Inter', sans-serif; background: linear-gradient(135deg, #D2B48C 0%, #A0826D 100%); background-attachment: fixed; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box; }
+        #login-screen { font-family: 'Inter', sans-serif; background: linear-gradient(135deg, #DC2626 0%, #7F1D1D 100%); background-attachment: fixed; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box; }
         #login-card { width: 100%; max-width: 420px; background: white; border-radius: 24px; box-sizing: border-box; padding: 32px 24px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
         
         .modulo-vista { display: none; animation: fadeIn 0.3s ease-in-out; }
         .modulo-vista.activa { display: block; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-        .app-content { overflow-y: auto; height: 100vh; padding-bottom: 100px; -webkit-overflow-scrolling: touch; background-color: #D2B48C; }
+        .app-content { overflow-y: auto; height: 100vh; padding-bottom: 100px; -webkit-overflow-scrolling: touch; background-color: #F8FAFC; }
         
         /* === ESTILOS DEL MENÚ === */
         .sidebar-link.activa { 
@@ -179,7 +179,7 @@
     <div id="login-screen">
         <div id="login-card">
             <div class="flex flex-col items-center mb-4">
-                <img src="https://pngimg.com/uploads/snickers/snickers_PNG13920.png" alt="Logo Snickers" class="mb-5 object-contain" style="height: 7.2rem; border-radius: 10px;"> 
+                <img src="https://i.ibb.co/DHmVRcxh/Tim-Hortons.jpg" alt="Logo Tim Hortons" class="mb-5 object-contain" style="height: 7.2rem; border-radius: 10px;"> 
                 <h1 class="text-2xl font-semibold text-text-main tracking-tight" style="margin:0;">Bienvenido</h1>
                 <p class="text-[15px] text-text-sub mt-1" style="margin-top:5px;">Mesa de Servicio Operativo</p>
             </div>
@@ -222,7 +222,7 @@
         <header class="main-header">
             <div class="header-left">
                 <button class="header-hamburger" type="button" data-sidebar-toggle><span class="hamburger"></span></button>
-                <img src="https://pngimg.com/uploads/snickers/snickers_PNG13920.png" alt="Snickers" class="header-logo">
+                <img src="https://tims-orden-de-servicio.onrender.com/static/images/logo.png" alt="Tim Hortons" class="header-logo">
                 <h1 class="system-title">Ordenes de Servicio</h1>
             </div>
             <div class="header-right">
@@ -270,7 +270,7 @@
 
                 <div id="vista-inicio" class="modulo-vista">
                     <div style="text-align: center; padding-top: 30px; padding-bottom: 50px;">
-                        <img src="https://pngimg.com/uploads/snickers/snickers_PNG13920.png" alt="Snickers" style="width: 150px; margin-bottom: 20px;">
+                        <img src="https://tims-orden-de-servicio.onrender.com/static/images/logo.png" alt="Tim Hortons" style="width: 150px; margin-bottom: 20px;">
                         <p style="color: #666; margin-bottom: 40px;">Selecciona una opción del menú lateral para comenzar.</p>
                         
                         <div style="border-top: 1px solid #e5e7eb; padding-top: 32px; max-width: 400px; margin: 50px auto 0 auto;">
